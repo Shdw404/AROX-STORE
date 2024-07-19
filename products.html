@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits - Site de Vente en Ligne</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Logo du site" id="logo-img">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="products.html">Produits</a></li>
+                <li><a href="profile.html">Profil</a></li>
+                <li><a href="login.html">Connexion</a></li>
+            </ul>
+            <input type="text" id="search-bar" placeholder="Rechercher...">
+        </nav>
+    </header>
+
+    <aside id="sidebar">
+        <h3>Catégories</h3>
+        <ul>
+            <li><a href="#">Catégorie 1</a></li>
+            <li><a href="#">Catégorie 2</a></li>
+            <li><a href="#">Catégorie 3</a></li>
+            <li><a href="#">Catégorie 4</a></li>
+        </ul>
+    </aside>
+
+    <section id="products">
+        <div class="product-grid">
+            <div class="product" onclick="window.location.href='product1.html'">
+                <img src="product1.jpg" alt="Produit 1">
+                <h3>Trottinette Elec AROX</h3>
+                <p>€499.99</p>
+            </div>
+            <div class="product" onclick="window.location.href='product2.html'">
+                <img src="product2.jpg" alt="Produit 2">
+                <h3>Voiture Télécommandé AROX</h3>
+                <p>€30.00</p>
+            </div>
+            <div class="product" onclick="window.location.href='product3.html'">
+                <img src="product3.jpg" alt="Produit 3">
+                <h3>PC GAMER AROX-SHI</h3>
+                <p>€740.00</p>
+            </div>
+            <div class="product" onclick="window.location.href='product4.html'">
+                <img src="product4.jpg" alt="Produit 4">
+                <h3>AROX-SHI-CLOW</h3>
+                <p>€49.99</p>
+            </div>
+            <div class="product" onclick="window.location.href='product5.html'">
+                <img src="product5.jpg" alt="Produit 5">
+                <h3>AROX-SHI-PORTABLE</h3>
+                <p>€1260.00</p>
+            </div>
+            <div class="product" onclick="window.location.href='product6.html'">
+                <img src="product6.jpg" alt="Produit 6">
+                <h3>Produit 6</h3>
+                <p>€70.00</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Site de Vente en Ligne</p>
+    </footer>
+</body>
+</html>
